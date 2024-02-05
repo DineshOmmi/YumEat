@@ -1,8 +1,12 @@
+import Featured from "./components/Featured"
 import TopNav from "./components/TopNav"
 
 function App() {
   return (
-    <TopNav/>
+    <>
+        <TopNav/>
+        <Featured/>
+    </>
   )
 }
 
